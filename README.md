@@ -18,7 +18,7 @@ This repository contains the code used in various Kaggle competitions, including
 
 Each competition folder contains:
 - **Training code**: Complete training pipelines, data preprocessing, and model development
-- **Inference code**: Code for making predictions on new data
+- **Inference code**: Code for making predictions on new data (when available)
 - **Data generation scripts**: When applicable, scripts for creating training data
 - **README files**: Detailed documentation for each competition
 
@@ -26,20 +26,26 @@ Each competition folder contains:
 
 ### Complete Training + Inference
 - Kaggle - LLM Science Exam
+- AMP®-Parkinson's Disease Progression Prediction
+### Training Only
 - Child Mind Institute - Detect Sleep States
 
 ### Inference Only
-- AMP®-Parkinson's Disease Progression Prediction
 - Predict Student Performance from Game Play
 
 ## Technologies Used
 
 The codebase spans various machine learning and deep learning approaches:
 - **Natural Language Processing**: LLM fine-tuning, text classification
-- **Computer Vision**: Image processing, medical imaging
 - **Time Series**: Sleep state detection, disease progression
 - **Tabular Data**: Student performance prediction
-- **Multimodal**: Various data types and fusion approaches
+- **Signal Processing**: Accelerometer data analysis, medical data processing
+
+## Data Access
+
+**Important**: Competition datasets are not included in this repository. To execute the code, you will need access to the original competition datasets.
+
+**For data access requests**: Contact [manuelpazpintor@gmail.com](mailto:manuelpazpintor@gmail.com)
 
 ## Getting Started
 
@@ -47,7 +53,7 @@ Each competition folder contains detailed documentation explaining:
 - Competition description and objectives
 - Data structure and preprocessing
 - Model architecture and training approach
-- Inference pipeline
+- Available code (training, inference, or both)
 - Performance metrics and results
 
 Navigate to individual competition folders for specific implementation details and usage instructions.
