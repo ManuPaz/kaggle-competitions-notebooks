@@ -1,0 +1,82 @@
+# Data files and directories
+data/*
+*.csv
+*.parquet
+*.h5
+*.hdf5
+
+# Compressed files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+*.dll
+*.dylib
+
+# Cython files
+*.c
+*.cpp
+*.h
+*.pxd
+*.pyx
+*.pyxbld
+*.so
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment and virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Model files and checkpoints
+*.pkl
+*.joblib
+*.h5
+*.hdf5
+*.pth
+*.pt
+*.ckpt
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Kaggle specific
+kaggle.json
+
